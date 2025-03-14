@@ -6,6 +6,13 @@
     overflow: hidden;
 }
 
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     min-height: 100vh;
@@ -15,11 +22,15 @@ body {
 }
 header{
     border: 3px solid yellowgreen;
+    text-align: center;
 }
 
 .portfolio {
     border: 3px solid rgb(226, 84, 84);
     flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 footer {
@@ -27,6 +38,7 @@ footer {
     border: 3px solid white;
     margin-top: auto;
     text-align: center;
+    min-height: 10vh;
 }
 
 .img_rrss{
@@ -42,6 +54,18 @@ footer {
 
 .contact_me{
     border: 3px solid yellow;
+    align-self: flex-start;
+    margin-left: auto;
+    min-width: 50vh;
+    min-height: 10vh;
+    text-align: center;
 }
+
+.sobre_mi{
+    border: 3px solid green;
+    width: 50vh;
+    height: auto;
+    text-align: center;
+  }
 
 
