@@ -1,0 +1,47 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+header{
+    border: 3px solid yellowgreen;
+}
+
+.portfolio {
+    border: 3px solid rgb(226, 84, 84);
+    flex-grow: 1;
+}
+
+footer {
+    height: 8vh;
+    border: 3px solid white;
+    margin-top: auto;
+    text-align: center;
+}
+
+.img_rrss{
+    width: 20px;
+    height: auto;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.url_rrss{
+    text-decoration: none;
+}
+
+.contact_me{
+    border: 3px solid yellow;
+}
+
+
